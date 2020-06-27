@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+    rest_julia:
+        build:
+            context: ./app
+            dockerfile: Dockerfile
+        ports:
+            - 8080:8080
+    db:
+        image: mysql:5.7
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: test
+            TZ: 'Asia/Tokyo'
+        volumes:
+            - ./db:/var/lib/mysql
+        # ports:
+        #     - 3306:3306

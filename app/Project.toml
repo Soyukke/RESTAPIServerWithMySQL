@@ -1,0 +1,6 @@
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+JSON2 = "2535ab7d-5cd8-5a07-80ac-9b1792aadce3"
+MySQL = "39abe10b-433b-5dbd-92d4-e302a9df00cd"
